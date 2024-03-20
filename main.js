@@ -164,7 +164,7 @@ function createJellyfish() {
     return jellyfishGroup;
 }
 const textureLoader = new THREE.TextureLoader();
-const fishTexture = textureLoader.load('/textures/fishTexture.jpg');
+const fishTexture = textureLoader.load('textures/fishTexture.jpg');
 
 const bodyMaterial = new THREE.MeshPhongMaterial({
     map: fishTexture,
